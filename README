@@ -1,0 +1,17 @@
+See INSTALL file for instruction on how to compile unixtime
+
+This utility is a patent-free, Open Source/Free Software tool. It is intended
+to allow the user to easily determine to what date a particular value of unix 
+time resolves. Usage is: 'unixtime <unixtime in decimal>'
+
+Unix time is the elapsed time, in seconds, from January 1st, 1970 00:00:00
+This tool can be used to illustrate the 2038 problem. Since unix time is 
+often stored as a 32 bit unsigned integer on most platforms, when the 
+value approaches 0xFFFFFFFF (signed integer roll over), the date is some-
+time in the year 2038. 
+
+e.g. For a unixtime value of 0xFFFFFFFF (4294967295 decimal)
+
+kodetroll@host:$ ./unixtime 4294967295
+Date-Time for (2147483647) unix seconds is: Mon Jan 18 21:14:07 2038
+

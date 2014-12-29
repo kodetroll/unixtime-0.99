@@ -1,0 +1,6 @@
+No special compile, libs or Makefile required, just do:
+
+gcc -o unixtime unixtime.c
+
+That is all.
+
