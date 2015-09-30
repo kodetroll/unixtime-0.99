@@ -29,3 +29,11 @@ e.g. For a unixtime value of 0xFFFFFFFF (4294967295 decimal)
 kodetroll@host:$ ./unixtime 4294967295
 Date-Time for (2147483647) unix seconds is: Mon Jan 18 21:14:07 2038
 
+
+usage: unixtime <options>
+
+Where:
+  --timeonly              Prints only the unixtime.
+  -t,--time <UNIX TIME>   Specifies the unixtime.
+  -h,--help               Shows help/usage.
+  -v,--version            Shows gorram version.

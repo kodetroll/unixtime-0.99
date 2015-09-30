@@ -2,5 +2,12 @@ No special compile, libs or Makefile required, just do:
 
 gcc -o unixtime unixtime.c
 
+- or -
+
+use the makefile:
+
+'make all'
+'sudo make install'
+
 That is all.
 
